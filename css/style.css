@@ -1,0 +1,72 @@
+body {
+  background: #ffcc00; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffcc00 0%, #2989d8 54%, #c96cb3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffcc00 0%,#2989d8 54%,#c96cb3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffcc00 0%,#2989d8 54%,#c96cb3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1 {
+  color: purple;
+  background: pink;
+  text-align: left;
+  text-indent: 5px;
+}
+p, li {
+  font-size: 1.4em;
+}
+.facts {
+  background: white;
+}
+.facts li {
+  float: left;
+  width: 33%;
+  background: white;
+}
+.facts .important {
+  font-size: 2em;
+  color: red;
+}
+
+.col-md {
+  background: pink;
+  border: 5px dotted grey;
+}
+.dogfashion h3 {
+  background: white;
+}
+
+
+.btn {
+  background: green;
+  color: white;
+  font-size: 2em;
+  padding: 9px 40px;
+  width: 100%;
+  border-radius: 14px;
+  transition: transform 20s;
+}
+.btn:hover {
+  background: pink;
+  color: grey;
+  transform: rotateY(0deg) rotate(45deg); /* needs Y at 0 deg to behave properly*/
+}
+
+.bg-light {
+    background-color: #AAA!important;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background: purple;
+  }
+  img {
+    width: 100%;
+  }
+  .facts li {
+    float: none;
+    width: 100%;
+  }
+
+}
